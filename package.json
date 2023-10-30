@@ -37,7 +37,7 @@
     ],
     "grammars": [
       {
-        "language": "javascript",
+        "language": "typescriptreact",
         "scopeName": "source.tsx.i18n",
         "path": "./syntaxes/typescriptreact.tmLanguage.json",
         "injectTo": [

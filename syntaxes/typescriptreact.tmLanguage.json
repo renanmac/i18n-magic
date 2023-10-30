@@ -2,30 +2,35 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "typescriptreact",
 	"scopeName": "source.tsx.i18n",
-	"patterns": [
-		{
-			"name": "meta.function.t.string",
-			"match": "t\\(\\s*('([^']+)')\\s*\\)",
-			"captures": {
-				"1": {
-					"name": "string.quoted.single.i18nmagic"
+	"injections": {
+		"source.tsx": {
+			"patterns": [
+				{
+					"name": "meta.function.t.string",
+					"match": "t\\(\\s*('([^']+)')\\s*\\)",
+					"captures": {
+						"1": {
+							"name": "string.quoted.single.i18nmagic"
+						},
+						"2": {
+							"name": "variable.parameter.string.i18nmagic"
+						}
+					}
 				},
-				"2": {
-					"name": "variable.parameter.string.i18nmagic"
+				{
+					"name": "meta.function.t.template-string",
+					"match": "t\\(\\s*(`([^`]+)`)\\s*\\)",
+					"captures": {
+						"1": {
+							"name": "string.quoted.template.i18n-magic"
+						},
+						"2": {
+							"name": "variable.parameter.template-string.i18n-magic"
+						}
+					}
 				}
-			}
-		},
-		{
-			"name": "meta.function.t.template-string",
-			"match": "t\\(\\s*(`([^`]+)`)\\s*\\)",
-			"captures": {
-				"1": {
-					"name": "string.quoted.template.i18n-magic"
-				},
-				"2": {
-					"name": "variable.parameter.template-string.i18n-magic"
-				}
-			}
+			]
 		}
-	]
+	},
+	"patterns": []
 }

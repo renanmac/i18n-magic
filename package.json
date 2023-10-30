@@ -2,7 +2,7 @@
   "name": "i18n-magic",
   "displayName": "i18n Magic",
   "description": "Easily visualize i18n content in your vscode.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "publisher": "renanmacs",
   "main": "./extension.js",
   "icon": "assets/images/i18n-magic.png",

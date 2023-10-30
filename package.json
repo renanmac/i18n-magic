@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "publisher": "renanmacs",
   "main": "./extension.js",
+  "icon": "assets/images/i18n-magic.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/renanmac/i18n-magic"

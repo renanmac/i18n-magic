@@ -14,3 +14,7 @@ Hover over a key inside Translate function (`t`) or Translate component (`Trans 
 ## Requirements
 
 Your project must have the i18n files in the `public/static/locales/` folder.
+
+## Supported languages  (file extensions)
+- JavaScript React (.jsx)
+- TypeScript React (.tsx)

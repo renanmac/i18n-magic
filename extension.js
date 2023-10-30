@@ -3,7 +3,7 @@ const vscode = require('vscode');
 let contentCache;
 const tFunctionRegex = /t\(['"`](.*?)['"`][^\)]*\)/;
 const transCompRegex = /i18nKey=\s*['"`](.*?)['"`]/;
-const supportedLanguages = ['javascript', 'javascriptreact', 'typescript', 'typescriptreact'];
+const supportedLanguages = ['javascriptreact', 'typescriptreact'];
 
 function activate(context) {
   let disposable = vscode.languages.registerHoverProvider(supportedLanguages, {

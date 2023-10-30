@@ -17,29 +17,15 @@
     "Programming Languages"
   ],
   "activationEvents": [
-    "onLanguage:javascript",
     "onLanguage:javascriptreact",
-    "onLanguage:typescript",
     "onLanguage:typescriptreact"
   ],
   "contributes": {
     "languages": [
       {
-        "id": "javascript",
-        "extensions": [
-          ".js"
-        ]
-      },
-      {
         "id": "javascriptreact",
         "extensions": [
           ".jsx"
-        ]
-      },
-      {
-        "id": "typescript",
-        "extensions": [
-          ".ts"
         ]
       },
       {
@@ -55,9 +41,7 @@
         "scopeName": "source.js.i18n",
         "path": "./syntaxes/javascriptreact.tmLanguage.json",
         "injectTo": [
-          "source.js",
           "source.js.jsx",
-          "source.ts",
           "source.tsx"
         ]
       }

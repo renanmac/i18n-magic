@@ -6,7 +6,7 @@ This extension helps you to visualize the content of your i18n files, making you
 
 ## Features
 
-Hover over a key inside Translate function (`t`) or Translate componet(`Trans i18nKey`) to see the value of that key.
+Hover over a key inside Translate function (`t`) or Translate component (`Trans i18nKey`) to see the value of that key.
 
 ![Screenshot](./assets/images/screenshot-1.png)
 

@@ -3,7 +3,12 @@
   "displayName": "i18n Magic",
   "description": "Easily visualize i18n content in your vscode.",
   "version": "0.0.1",
+  "publisher": "renanmacs",
   "main": "./extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renanmac/i18n-magic"
+  },
   "engines": {
     "vscode": "^1.83.0"
   },

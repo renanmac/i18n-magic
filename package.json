@@ -1,0 +1,60 @@
+{
+  "name": "i18n-magic",
+  "displayName": "i18n Magic",
+  "description": "Easily visualize i18n content in your vscode.",
+  "version": "0.0.1",
+  "main": "./extension.js",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "javascript",
+        "extensions": [
+          ".js"
+        ]
+      },
+      {
+        "id": "javascriptreact",
+        "extensions": [
+          ".jsx"
+        ]
+      },
+      {
+        "id": "typescript",
+        "extensions": [
+          ".ts"
+        ]
+      },
+      {
+        "id": "typescriptreact",
+        "extensions": [
+          ".tsx"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "javascript",
+        "scopeName": "source.js.i18n",
+        "path": "./syntaxes/javascriptreact.tmLanguage.json",
+        "injectTo": [
+          "source.js",
+          "source.js.jsx",
+          "source.ts",
+          "source.tsx"
+        ]
+      }
+    ]
+  }
+}

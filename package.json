@@ -41,7 +41,6 @@
         "scopeName": "source.tsx.i18n",
         "path": "./syntaxes/typescriptreact.tmLanguage.json",
         "injectTo": [
-          "source.js.jsx",
           "source.tsx"
         ]
       }

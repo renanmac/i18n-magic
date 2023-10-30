@@ -38,8 +38,8 @@
     "grammars": [
       {
         "language": "javascript",
-        "scopeName": "source.js.i18n",
-        "path": "./syntaxes/javascriptreact.tmLanguage.json",
+        "scopeName": "source.tsx.i18n",
+        "path": "./syntaxes/typescriptreact.tmLanguage.json",
         "injectTo": [
           "source.js.jsx",
           "source.tsx"
